@@ -29,6 +29,10 @@ section{
     padding: 20px 0px;
 }
 
+h2, h3{
+    font-size: 20px;
+}
+
 nav{
     max-width: 90%;
     margin: auto;
@@ -158,3 +162,162 @@ main .sec-two .container .img-sec-two img{
     border-radius: 40% 50px 40% 50px ;
     border: 10px solid rgba(0, 0, 0, 0.059);
 }
+
+main .sec-tree .container{
+    text-align: center;
+    color: var(--text-color);
+}
+
+main .sec-tree .container h3{
+    margin: 10px 0px 20px 0px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+main .sec-tree .cards{
+    background-image: radial-gradient(#433D60, #211E2E);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+main .sec-tree .cards img{
+    border-radius: 100%;
+    border: 10px solid #211e2e8f;
+}
+
+main .sec-tree .cards h2{
+    padding:10px 0px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+main .sec-tree .cards hr{
+    width: 75%;
+    margin: auto;
+}
+
+main .sec-tree .cards p{
+    margin: 20px 0px 30px 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+main .sec-tree .cards a{
+    display: block;
+    color: var(--bg-color);
+    font-weight: bold;
+    background-image: linear-gradient(to right, #8176AF, #C0B7E8 );
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+main .sec-tree .setas{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: 0px -50px -10px -50px;
+}
+
+main .sec-tree .setas i{
+    border: 7px solid #211e2e8f;
+    border-radius: 100%;
+}
+
+main .sec-for .img-sec-for{
+    background-image: url('../imagens/vr-image02.svg');
+    color: var(--text-color);
+    background-position: left left;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+main .sec-for .img-sec-for h2{
+    font-size: 12px;
+    padding: 15px 0px 5px 0px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+main .sec-for .img-sec-for h3{
+    font-weight: 100;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+main .sec-for .img-sec-for-02{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px
+}
+
+main .sec-for .img-sec-for-02 img{
+    width: 200px;
+}
+
+main .sec-for .img-sec-for-02 i{
+    font-size: 30px;
+    border: 7px solid #211e2e8f;
+    border-radius: 100%;
+}
+
+main .sec-five{
+    text-align: center;
+    color: var(--text-color);
+}
+
+main .sec-five .circle{
+    background-image: linear-gradient(to right, #8176AF, #C0B7E8 );
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #211e2ef4;
+
+}
+
+main .sec-five h2{
+    font-size: 17px;
+}
+
+main .sec-five h3{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+main .sec-five .circle h1{
+    font-size: 35px;
+    font-weight:900;
+    color: var(--bg-color);
+}
+
+main .sec-five .slider-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+main .sec-five .slider-text i{
+    font-size: 30px;
+    border: 7px solid #211e2e8f;
+    border-radius: 100%;
+}
+
+main .sec-six form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
