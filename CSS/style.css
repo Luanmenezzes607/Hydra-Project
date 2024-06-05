@@ -20,13 +20,24 @@ body{
     background-color: var(--bg-color);
 }
 
-.container{
+.container, footer{
     max-width: 80%;
     margin: auto;
 }
 
 section{
     padding: 20px 0px;
+}
+
+a {
+    display: block;
+    color: var(--bg-color);
+    font-weight: bold;
+    font-size: 14px;
+    background-image: linear-gradient(to right, #8176AF, #C0B7E8 );
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 30px;
 }
 
 h2, h3{
@@ -84,16 +95,6 @@ main .sec-one h1 #strong2{
     color: black;
 }
 
-main .sec-one .container a{
-    display: block;
-    color: var(--bg-color);
-    font-weight: bold;
-    background-image: linear-gradient(to right, #8176AF, #C0B7E8 );
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-
 main .sec-one .slider{
     display: flex;
     align-items: center;
@@ -147,16 +148,6 @@ main .sec-two p{
     font-size: 12px;
 }
 
-main .sec-two a{
-    display: block;
-    color: var(--bg-color);
-    font-weight: bold;
-    background-image: linear-gradient(to right, #8176AF, #C0B7E8 );
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-
 main .sec-two .container .img-sec-two img{
     width: 100%;
     border-radius: 40% 50px 40% 50px ;
@@ -201,16 +192,6 @@ main .sec-tree .cards p{
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 100;
-}
-
-main .sec-tree .cards a{
-    display: block;
-    color: var(--bg-color);
-    font-weight: bold;
-    background-image: linear-gradient(to right, #8176AF, #C0B7E8 );
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 30px;
 }
 
 main .sec-tree .setas{
@@ -313,10 +294,99 @@ main .sec-five .slider-text i{
     border-radius: 100%;
 }
 
+main .sec-six {
+    text-align: center;
+    color: var(--text-color);
+}
+
+main .sec-six .container{
+    background-image: radial-gradient(#433D60, #211E2E);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+main .sec-six p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+main .sec-six hr{
+    width: 40%;
+    margin: 15px auto;
+    height: 0.5px;
+    
+}
+
 main .sec-six form{
     display: flex;
     flex-direction: column;
-    
+    gap: 15px;
+    margin: 20px 0px;
+
+}
+
+main .sec-six form input{
+    padding: 10px;
+    background-color: transparent;
+    border: 1.5px solid #ffffff ;
+    border-radius: 20px;
+    outline: none;
+}
+
+main .sec-six form input::placeholder{
+    color: #ffffffc9;
+    font-size: 10px;
+    padding-left: 10px;
+
+}
+
+main .sec-six form #imais{
+    padding-bottom: 100px;
+}
+
+footer{
+    text-align: center;
+    color:var(--text-color);
+}
+
+footer img{
+    height:140px;
+    margin: 40px 0px 30px 0px;
+}
+
+footer h3{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    margin: 10px 0px 20px 0px;
+}
+
+footer div i{
+    background-color: #C0B7E8;
+    color: #211E2E;
+    font-size: 15px;
+    border: 7px solid #C0B7E8;
+    border-radius: 50%;
+}
+
+footer p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 2.3em;
+    padding: 30px 0px 70px 0px;
+}
+
+footer hr{
+    height: 1px;
+    margin-top: 50px;
 }
 
 
