@@ -63,7 +63,7 @@ main .sec-one{
     text-align: center;
 }
 
-main .sec-one .container .img-sec-two img{
+main .sec-one .container .img-sec-one img{
     width: 100%;
     border-radius: 50% 50% 50% 100% ;
     border: 10px solid rgba(0, 0, 0, 0.059);
@@ -75,7 +75,7 @@ main .sec-one h1{
     margin-top: 20px;
 }
 
-main .sec-one h1 #strong1{
+main .sec-one h1 .strong{
     background-image: linear-gradient(to right, #C0B7E8, #8176AF);
     font-weight: 900;   
     font-size: 25px;
@@ -85,7 +85,7 @@ main .sec-one h1 #strong1{
     color: black;
 }
 
-main .sec-one h1 #strong2{
+main .sec-one h1 .strong{
     background-image: linear-gradient(to right, #C0B7E8, #8176AF);
     font-weight: 900;   
     font-size: 25px;
@@ -388,6 +388,4 @@ footer hr{
     height: 1px;
     margin-top: 50px;
 }
-
-
 

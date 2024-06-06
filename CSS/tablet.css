@@ -1,0 +1,237 @@
+@media screen and (min-width: 780px) and (max-width: 1023px){
+
+    h2, h3{
+        font-size: 40px;
+    }
+
+    nav .logo img{
+        width: 90px;
+    }
+
+    nav div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav img{
+        width: 45px;
+    }
+
+    nav{
+        padding: 40px 0px;
+    }
+
+    a{
+        font-size: 20px;
+        padding: 30px;
+        border-radius: 50px;
+        margin: 40px 0px;
+    }
+
+    main .sec-one .img-sec-one{
+        width: 80%;
+        margin: auto;
+        margin: 30px auto 50px auto;
+    }
+
+    main .sec-one h1{
+        font-size: 45px;
+    }
+
+    main .sec-one h1 .strong{
+        font-size: 45px;
+    }
+
+    main .sec-one .slider{
+        padding: 20px;
+        border-radius: 90px;
+        margin: 70px 0px 50px 0px;
+    }
+
+    main .sec-one .slider .location{
+        padding: 0px 10px 0px 40px;
+    }
+
+    main .sec-one .slider .location img{
+        width: 90px;
+    }
+
+    main .sec-one .slider .location p{
+        font-size: 25px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    main .sec-one .slider i{
+        font-size: 50px;
+        padding: 10px 0px;
+    }
+
+    main .sec-two .container h2{
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    main .sec-two .container h3{
+        font-size: 35px;
+    }
+
+    main .sec-two .container .img-sec-two img{
+        width: 80%;
+    }
+
+    main .sec-two .container p{
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 1.5;
+        padding: 30px 0px 15px 0px;
+    }
+
+    main .sec-tree h3{
+        font-size: 30px;
+    }
+
+    main .sec-tree .cards{
+        margin: 50px 0px 20px 0px;
+    }
+
+    main .sec-tree .cards hr{
+        width: 75%;
+        margin: 20px auto 30px auto;
+    }
+
+    main .sec-tree .cards p{
+        font-size: 17px;
+    }
+
+    main .sec-tree .cards i{
+        font-size: 50px;
+        margin: 0px -10px;
+    }
+
+    main .sec-tree .cards img{
+        width: 250PX;
+        margin-top: 30px
+    }
+    main .sec-for .img-sec-for{
+        border-radius: 80px;
+    }
+
+
+    main .sec-for .img-sec-for h2{
+        font-size: 20px;
+        padding: 40px 0px 10px 0px;
+        letter-spacing: 1px;
+    }
+    
+    main .sec-for .img-sec-for h3{
+        font-size: 30px;
+        padding: 5px 0px 30px 0px
+    }
+
+    main .sec-for .img-sec-for-02 {
+        padding: 0px 30px;
+    }
+
+    main .sec-for .img-sec-for-02 img{
+        width: 300px;
+    }
+    
+    main .sec-for .img-sec-for-02 i{
+        font-size: 50px;
+    }
+
+    main .sec-five .circle{
+        width: 250px;
+        height: 250px;
+        margin: 50px auto;
+        border: 17px solid #211e2ef4;
+    
+    }
+    
+    main .sec-five h2{
+        font-size: 40px;
+    }
+    
+    main .sec-five h3{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    
+    main .sec-five .circle h1{
+        font-size: 40px;
+    }
+    
+    main .sec-five .slider-text{
+        padding: 4px 0px 70px 0px;
+    }
+
+    main .sec-five .slider-text i{
+        font-size: 50px;
+        border: 10px solid #211e2e8f;
+        border-radius: 100%;
+    }
+
+    main .sec-six p{
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+
+    
+main .sec-six form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0px;
+
+}
+
+main .sec-six form input{
+    padding: 20px;
+    border-radius: 40px;
+}
+
+main .sec-six form input::placeholder{
+    font-size: 18px;
+}
+
+main .sec-six form #imais{
+    padding-bottom: 150px;
+}
+
+footer img{
+    height:200px;
+    margin: 50px 0px 50px 0px;
+}
+
+footer h3{
+    font-size: 20px;;
+}
+
+footer div{
+    margin:40px 0px 40px 0px;
+    display: flex;
+}
+
+footer div i{
+    font-size: 30px;
+    border: 10px solid #C0B7E8;
+    border-radius: 50%;
+    padding:5px 6px;
+}
+
+footer p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 2.3em;
+    padding: 30px 0px 70px 0px;
+}
+
+footer hr{
+    height: 1px;
+    margin: 80px 0px 30px 0px;
+}
+
+
+}
